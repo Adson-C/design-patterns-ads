@@ -1,12 +1,10 @@
-package br.com.ads.designpattern.factory.vehicles;
+package br.com.ads.designpattern.absytractfactory.landvehicles;
 
-public class Motorcycle implements IVehicle {
-
+public class Motorcycle implements ILandVehicle {
     @Override
     public void startRoute() {
         getCargo();
-        System.out.println("Iniciamos a entrega!");
-
+        System.out.println("Iniciando a entrega!");
     }
 
     @Override
